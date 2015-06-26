@@ -1,2 +1,2 @@
 # openstf.github.io
-Public site for http://stf.link
+Public site for http://openstf.github.io

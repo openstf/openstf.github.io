@@ -1238,3 +1238,7 @@ section#screens .slider div img {
   width: 270px;
   border: none;
 }
+section#getApp .platforms {
+  margin: 0;
+  margin-bottom: 20px;
+}

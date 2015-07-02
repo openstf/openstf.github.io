@@ -764,6 +764,84 @@ form textarea.form-control {
     -webkit-transform: scale(1);
   }
 }
+.color-orange {
+  color: #ffa101;
+}
+.color-red {
+  color: #ff2d55;
+}
+.color-pink {
+  color: #ff5287;
+}
+.color-blue {
+  color: #0d7aff;
+}
+.color-skyblue {
+  color: #56b7f1;
+}
+.color-green {
+  color: #42cd00;
+}
+.color-darkgreen {
+  color: #369c00;
+}
+.color-darkgray {
+  color: #8c8c91;
+}
+.color-yellow {
+  color: #ffcc00;
+}
+.color-violet {
+  color: #7a367a;
+}
+.color-lila {
+  color: #cc73e1;
+}
+.color-brown {
+  color: #b1440e;
+}
+.color-black {
+  color: #232323;
+}
+.bg-orange {
+  background-color: #ffa101;
+}
+.bg-red {
+  background-color: #ff2d55;
+}
+.bg-pink {
+  background-color: #ff5287;
+}
+.bg-blue {
+  background-color: #0d7aff;
+}
+.bg-skyblue {
+  background-color: #56b7f1;
+}
+.bg-green {
+  background-color: #42cd00;
+}
+.bg-darkgreen {
+  background-color: #369c00;
+}
+.bg-darkgray {
+  background-color: #8c8c91;
+}
+.bg-yellow {
+  background-color: #ffcc00;
+}
+.bg-violet {
+  background-color: #7a367a;
+}
+.bg-lila {
+  background-color: #cc73e1;
+}
+.bg-brown {
+  background-color: #b1440e;
+}
+.bg-black {
+  background-color: #232323;
+}
 /* HIDE image to prevent flicker */
 .tp-banner-container img,
 .tp-banner-container .tp-caption {

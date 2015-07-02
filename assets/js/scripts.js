@@ -87,11 +87,11 @@ var appMaster = {
             $(this).addClass('active');
         });
 
-        $('.js-filter-three').on('click', function() {
-            $('.filtering').slickFilter('.three');
-            $('.filter a').removeClass('active');
-            $(this).addClass('active');
-        });
+        //$('.js-filter-three').on('click', function() {
+        //    $('.filtering').slickFilter('.three');
+        //    $('.filter a').removeClass('active');
+        //    $(this).addClass('active');
+        //});
 
     },
 

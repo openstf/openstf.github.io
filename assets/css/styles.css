@@ -1234,3 +1234,7 @@ form .form-control:focus {
 .pre-loader {
   background: #336799;
 }
+section#screens .slider div img {
+  width: 270px;
+  border: none;
+}

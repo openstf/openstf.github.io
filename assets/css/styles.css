@@ -773,6 +773,14 @@ form textarea.form-control {
 #team .two img {
   width: 200px;
 }
+.ca-logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.ca-logo img {
+  width: 130px;
+}
 header {
   background: #66cdcc;
   /* Old browsers */
@@ -1023,6 +1031,9 @@ section#support .media:hover h3 {
 }
 #team .social a:hover i {
   color: #66cdcc;
+}
+section#support .media a {
+  color: #666666;
 }
 /* footer section */
 footer {

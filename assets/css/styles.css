@@ -851,6 +851,10 @@ form textarea.form-control {
 #team .two img {
   width: 200px;
 }
+#team .one,
+#team .two {
+  text-align: center;
+}
 .ca-logo {
   position: absolute;
   bottom: 10px;

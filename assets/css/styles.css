@@ -764,6 +764,9 @@ form textarea.form-control {
     -webkit-transform: scale(1);
   }
 }
+.color-base {
+  color: #66cdcc;
+}
 .color-orange {
   color: #ffa101;
 }
@@ -803,6 +806,9 @@ form textarea.form-control {
 .color-black {
   color: #232323;
 }
+.bg-base {
+  background-color: #66cdcc;
+}
 .bg-orange {
   background-color: #ffa101;
 }
@@ -841,6 +847,48 @@ form textarea.form-control {
 }
 .bg-black {
   background-color: #232323;
+}
+.border-base {
+  border-color: #66cdcc;
+}
+.border-orange {
+  border-color: #ffa101;
+}
+.border-red {
+  border-color: #ff2d55;
+}
+.border-pink {
+  border-color: #ff5287;
+}
+.border-blue {
+  border-color: #0d7aff;
+}
+.border-skyblue {
+  border-color: #56b7f1;
+}
+.border-green {
+  border-color: #42cd00;
+}
+.border-darkgreen {
+  border-color: #369c00;
+}
+.border-darkgray {
+  border-color: #8c8c91;
+}
+.border-yellow {
+  border-color: #ffcc00;
+}
+.border-violet {
+  border-color: #7a367a;
+}
+.border-lila {
+  border-color: #cc73e1;
+}
+.border-brown {
+  border-color: #b1440e;
+}
+.border-black {
+  border-color: #232323;
 }
 /* HIDE image to prevent flicker */
 .tp-banner-container img,
@@ -956,15 +1004,7 @@ section .section-heading .divider:after {
   background: #66cdcc;
 }
 section#about .about-item i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
-}
-section#about .about-item:hover i.fa {
-  color: #ffffff;
-  background: #66cdcc;
-}
-section#about .about-item:hover h3 {
-  color: #66cdcc;
+  border: 2px solid;
 }
 section#features {
   background: #f6f6f6;
@@ -973,22 +1013,7 @@ section#features header h1:after {
   background: #66cdcc;
 }
 section#features .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
-}
-section#features .media:hover i.fa {
-  color: #ffffff;
-  background: #66cdcc;
-}
-section#features .media:hover h3 {
-  color: #66cdcc;
-}
-section#features .media.active i.fa {
-  color: #ffffff;
-  background: #66cdcc;
-}
-section#features .media.active .media-heading {
-  color: #66cdcc;
+  border: 2px solid;
 }
 section#reviews {
   background: url("../img/freeze/bk-freeze.jpg");

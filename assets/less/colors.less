@@ -47,6 +47,10 @@
 @brown: #b1440e;
 @black: #232323;
 
+.color-base {
+    color: @base;
+}
+
 .color-orange {
     color: @orange;
 }
@@ -60,7 +64,7 @@
 }
 
 .color-blue {
-    color: @blue
+    color: @blue;
 }
 
 .color-skyblue {
@@ -97,6 +101,10 @@
 
 .color-black {
     color: @black;
+}
+
+.bg-base {
+    background-color: @base;
 }
 
 .bg-orange {
@@ -150,6 +158,63 @@
 .bg-black {
     background-color: @black;
 }
+
+.border-base {
+    border-color: @base;
+}
+
+.border-orange {
+    border-color: @orange;
+}
+
+.border-red {
+    border-color: @red;
+}
+
+.border-pink {
+    border-color: @pink;
+}
+
+.border-blue {
+    border-color: @blue;
+}
+
+.border-skyblue {
+    border-color: @skyblue;
+}
+
+.border-green {
+    border-color: @green;
+}
+
+.border-darkgreen {
+    border-color: @darkgreen;
+}
+
+.border-darkgray {
+    border-color: @darkgray;
+}
+
+.border-yellow {
+    border-color: @yellow;
+}
+
+.border-violet {
+    border-color: @violet;
+}
+
+.border-lila {
+    border-color: @lila;
+}
+
+.border-brown {
+    border-color: @brown;
+}
+
+.border-black {
+    border-color: @black;
+}
+
 
 // -------------- STF common colors --------
 
@@ -272,18 +337,21 @@ section{
 section#about {
     .about-item {
         i.fa {
-            border: 2px solid @base;
-            color: @base;
+            border: 2px solid;
         }
-        &:hover {
-            i.fa {
-                color: @white;
-                background: @base;
-            }
-            h3 {
-                color: @base;
-            }
-        }
+        //i.fa {
+        //    border: 2px solid @base;
+        //    color: @base;
+        //}
+        //&:hover {
+        //    i.fa {
+        //        color: @white;
+        //        background: @base;
+        //    }
+        //    h3 {
+        //        color: @base;
+        //    }
+        //}
     }
 }
 section#features {
@@ -297,27 +365,30 @@ section#features {
     }
     .media {
         i.fa {
-            border: 2px solid @base;
-            color: @base;
+            border: 2px solid;
         }
-        &:hover {
-            i.fa {
-                color: @white;
-                background: @base;
-            }
-            h3 {
-                color: @base;
-            }
-        }
-        &.active {
-            i.fa {
-                color: @white;
-                background: @base;
-            }
-            .media-heading{
-            	color: @base;
-            }
-        }
+        //i.fa {
+        //    border: 2px solid @base;
+        //    color: @base;
+        //}
+        //&:hover {
+        //    i.fa {
+        //        color: @white;
+        //        background: @base;
+        //    }
+        //    h3 {
+        //        color: @base;
+        //    }
+        //}
+        //&.active {
+        //    i.fa {
+        //        color: @white;
+        //        background: @base;
+        //    }
+        //    .media-heading{
+        //    	color: @base;
+        //    }
+        //}
     }
 }
 section#reviews {

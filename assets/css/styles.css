@@ -1271,3 +1271,12 @@ section#getApp .platforms {
   margin: 0;
   margin-bottom: 20px;
 }
+
+.latest-news {
+    padding-top: 10px;
+    text-align: right;
+}
+
+.latest-news ul {
+    list-style-type: none;
+}
